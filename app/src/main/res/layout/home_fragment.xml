@@ -19,5 +19,13 @@
             android:textSize="30sp"
             android:text="@{dataContext.title}" />
 
+        <Button
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="200dp"
+            android:id="@+id/btnSpace"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="Space" />
+
     </FrameLayout>
 </layout>

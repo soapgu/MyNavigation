@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/homeFragment">
 
@@ -8,4 +9,9 @@
         android:id="@+id/homeFragment"
         android:name="com.soap.mynavigation.fragment.HomeFragment"
         android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/spaceFragment"
+        android:name="com.soap.mynavigation.fragment.SpaceFragment"
+        android:label="fragment_space"
+        tools:layout="@layout/fragment_space" />
 </navigation>
