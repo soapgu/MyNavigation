@@ -14,4 +14,9 @@
         android:name="com.soap.mynavigation.fragment.SpaceFragment"
         android:label="fragment_space"
         tools:layout="@layout/fragment_space" />
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="com.soap.mynavigation.fragment.MyFragment"
+        android:label="fragment_my"
+        tools:layout="@layout/fragment_my" />
 </navigation>
