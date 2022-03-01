@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Home" />
+    <item
+        android:id="@+id/spaceFragment"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="Space" />
+
+    <item
+        android:id="@+id/myFragment"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="我的" />
+</menu>
