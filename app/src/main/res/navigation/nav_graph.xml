@@ -8,12 +8,20 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.soap.mynavigation.fragment.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_spaceFragment"
+            app:destination="@id/spaceFragment" />
+    </fragment>
     <fragment
         android:id="@+id/spaceFragment"
         android:name="com.soap.mynavigation.fragment.SpaceFragment"
         android:label="fragment_space"
-        tools:layout="@layout/fragment_space" />
+        tools:layout="@layout/fragment_space" >
+        <argument
+            android:name="soapTest"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/myFragment"
         android:name="com.soap.mynavigation.fragment.MyFragment"

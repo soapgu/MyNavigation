@@ -29,7 +29,10 @@ public class HomeFragment extends Fragment {
         HomeFragmentBinding binding = HomeFragmentBinding.inflate(inflater,container,false);
         HomeViewModel mViewModel = new ViewModelProvider(this).get(HomeViewModel.class);
         binding.setDataContext(mViewModel);
-        binding.btnSpace.setOnClickListener(v -> Navigation.findNavController(v).navigate(R.id.spaceFragment));
+        binding.btnSpace.setOnClickListener(v -> {
+            HomeFragmentDirections.ActionHomeFragmentToSpaceFragment action = HomeFragmentDirections.actionHomeFragmentToSpaceFragment("Hello Arg from Home");
+            Navigation.findNavController(v).navigate(action);
+        });
         return binding.getRoot();
     }
 

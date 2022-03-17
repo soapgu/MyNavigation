@@ -6,11 +6,12 @@
         android:id="@+id/homeFragment"
         android:icon="@android:drawable/ic_menu_myplaces"
         android:title="Home" />
+    <!--
     <item
         android:id="@+id/spaceFragment"
         android:icon="?attr/actionModeCopyDrawable"
         android:title="Space" />
-
+    -->
     <item
         android:id="@+id/myFragment"
         android:icon="@android:drawable/btn_star_big_on"
